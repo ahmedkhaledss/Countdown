@@ -9,6 +9,8 @@
 #import "DetailViewController.h"
 
 @interface DetailViewController ()
+@property (weak, nonatomic) IBOutlet UILabel *detailDescriptionLabel;
+@property (weak, nonatomic) IBOutlet UILabel *countdownLabel;
 
 @end
 
@@ -18,9 +20,24 @@
     // Update the user interface for the detail item.
     if (self.detailItem) {
         self.detailDescriptionLabel.text = [self.detailItem name];
+        [self startCountdown];
     }
 }
 
+
+- (void)startCountdown {
+    NSTimer *timer;
+    timer = [NSTimer scheduledTimerWithTimeInterval:1.0 target:self selector:@selector(updateTime) userInfo:nil repeats:YES];
+}
+
+- (void)updateTime {
+    int ti = (int)([self.detailItem.date timeIntervalSinceNow]);
+    int seconds = ti % 60;
+    int minutes = (ti / 60) % 60;
+    int hours = (ti / 3600) % 24;
+    int days = (ti / 86400);
+    self.countdownLabel.text = [NSString stringWithFormat:@"%i days %i hours %i min %i sec", days, hours, minutes, seconds];
+}
 
 - (void)viewDidLoad {
     [super viewDidLoad];
