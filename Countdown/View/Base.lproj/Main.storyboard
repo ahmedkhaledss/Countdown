@@ -174,18 +174,18 @@
                                 <rect key="frame" x="5" y="69" width="404" height="662"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="UWa-cY-3tR">
-                                        <rect key="frame" x="0.0" y="0.0" width="404" height="60"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="404" height="60.333333333333336"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bJC-6Y-iJs">
-                                                <rect key="frame" x="0.0" y="0.0" width="45" height="60"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="45" height="60.333333333333336"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Please Type an Event Name" textAlignment="center" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="SXm-Cs-ldF">
-                                                <rect key="frame" x="50" y="0.0" width="354" height="60"/>
+                                                <rect key="frame" x="50" y="0.0" width="354" height="60.333333333333336"/>
                                                 <nil key="textColor"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
                                                 <textInputTraits key="textInputTraits" returnKeyType="done"/>
                                                 <connections>
                                                     <outlet property="delegate" destination="zSr-Py-22V" id="c8g-xe-ide"/>
@@ -194,7 +194,7 @@
                                         </subviews>
                                     </stackView>
                                     <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="date" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="1oQ-jX-oRd">
-                                        <rect key="frame" x="0.0" y="60" width="404" height="301"/>
+                                        <rect key="frame" x="0.0" y="60.333333333333343" width="404" height="300.66666666666663"/>
                                         <date key="date" timeIntervalSinceReferenceDate="536093779.40713501">
                                             <!--2017-12-27 18:56:19 +0000-->
                                         </date>
