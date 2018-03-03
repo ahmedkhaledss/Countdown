@@ -51,6 +51,14 @@
 		B06F2C822040B46D007E5033 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				B0B4A5E11FF422D700386FDD /* AppDelegate.h */,
+				B0B4A5E21FF422D700386FDD /* AppDelegate.m */,
+				B0B4A5FD1FF4333900386FDD /* AddEventViewController.h */,
+				B0B4A5FE1FF4333900386FDD /* AddEventViewController.m */,
+				B0B4A5E41FF422D700386FDD /* MasterViewController.h */,
+				B0B4A5E51FF422D700386FDD /* MasterViewController.m */,
+				B0B4A5E71FF422D700386FDD /* DetailViewController.h */,
+				B0B4A5E81FF422D700386FDD /* DetailViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -58,6 +66,9 @@
 		B06F2C832040B478007E5033 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				B0B4A5EF1FF422D800386FDD /* LaunchScreen.storyboard */,
+				B0B4A5EA1FF422D800386FDD /* Main.storyboard */,
+				B0B4A5ED1FF422D800386FDD /* Assets.xcassets */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -65,6 +76,8 @@
 		B06F2C842040B483007E5033 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				B04D96E01FF6AF3300707B91 /* Event.h */,
+				B04D96E11FF6AF3300707B91 /* Event.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -91,21 +104,8 @@
 				B06F2C842040B483007E5033 /* Model */,
 				B06F2C832040B478007E5033 /* View */,
 				B06F2C822040B46D007E5033 /* Controller */,
-				B0B4A5E11FF422D700386FDD /* AppDelegate.h */,
-				B0B4A5E21FF422D700386FDD /* AppDelegate.m */,
-				B0B4A5FD1FF4333900386FDD /* AddEventViewController.h */,
-				B0B4A5FE1FF4333900386FDD /* AddEventViewController.m */,
-				B0B4A5E41FF422D700386FDD /* MasterViewController.h */,
-				B0B4A5E51FF422D700386FDD /* MasterViewController.m */,
-				B0B4A5E71FF422D700386FDD /* DetailViewController.h */,
-				B0B4A5E81FF422D700386FDD /* DetailViewController.m */,
-				B0B4A5EA1FF422D800386FDD /* Main.storyboard */,
-				B0B4A5ED1FF422D800386FDD /* Assets.xcassets */,
-				B0B4A5EF1FF422D800386FDD /* LaunchScreen.storyboard */,
 				B0B4A5F21FF422D800386FDD /* Info.plist */,
 				B0B4A5F31FF422D800386FDD /* main.m */,
-				B04D96E01FF6AF3300707B91 /* Event.h */,
-				B04D96E11FF6AF3300707B91 /* Event.m */,
 			);
 			path = Countdown;
 			sourceTree = "<group>";

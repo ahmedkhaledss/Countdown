@@ -17,13 +17,11 @@
 @implementation MasterViewController
 
 - (void)viewDidLoad {
-    //NSString *appPath = NSHomeDirectory();
-    //NSString *appPath = [[NSBundle mainBundle] resourcePath];
-    //NSURL *documentDirectory = [[NSFileManager defaultManager] URLForDirectory:NSDocumentDirectory inDomain:NSUserDomainMask appropriateForURL:nil create:NO error:nil];
+    [super viewDidLoad];
     NSArray *paths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
     NSString *documentDirectory = paths[0];
     NSString *propertyListPath = [documentDirectory stringByAppendingPathComponent:@"events.plist"];
-    [super viewDidLoad];
+
     
     if([[NSFileManager defaultManager] fileExistsAtPath:propertyListPath])
     {
